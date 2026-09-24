@@ -1,0 +1,20 @@
+# Compiled plugin artifacts produced by the build command in README.md.
+*.dll
+*.dylib
+*.so
+
+# Header emitted alongside a c-shared build.
+*.h
+
+# Binary left behind by a plain "go build" in the module directory.
+*.exe
+
+# Release packaging output.
+dist/
+*.zip
+checksums.txt
+
+# Accumulated usage counters written at runtime.
+*-state.json
+
+docs

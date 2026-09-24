@@ -1,0 +1,23 @@
+{
+  "schema_version": 1,
+  "plugins": [
+    {
+      "id": "apikey-quota",
+      "name": "API Key Quota",
+      "description": "Meters client API key usage and enforces per-key token, request and cost quotas with a built-in price table, model deny rules, per-key model mapping and fallback models, per-minute rate and concurrency limits with queueing, API key to account binding with per-account concurrency caps, time-window schedules with their own quotas, pause and resume, batch key management, and a bilingual management dashboard with usage charts.",
+      "author": "minifun1218",
+      "version": "0.8.0",
+      "repository": "https://github.com/minifun1218/cliproxy-apikey-quota",
+      "homepage": "https://github.com/minifun1218/cliproxy-apikey-quota",
+      "license": "MIT",
+      "tags": [
+        "Quota",
+        "Usage",
+        "Management",
+        "Dashboard",
+        "Interceptor",
+        "Routing"
+      ]
+    }
+  ]
+}
